@@ -120,7 +120,7 @@ function handleDelete(key) {
 
             <TextInput
                 placeholder='Marca'
-                left={<TextInput.Icon icon="format-list-bulleted-type" />}
+                left={<TextInput.Icon icon="brightness-percent" />}
                 style={styles.input}
                 onChangeText={(text) => setMarca(text)}
                 value={marca}
@@ -138,7 +138,7 @@ function handleDelete(key) {
 
             <TextInput
                 placeholder='Cor'
-                left={<TextInput.Icon icon="invert-colors" />}
+                left={<TextInput.Icon icon="select-color" />}
                 style={styles.input}
                 onChangeText={(text) => setCor(text)}
                 value={cor}
